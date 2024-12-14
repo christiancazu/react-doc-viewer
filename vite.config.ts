@@ -19,10 +19,11 @@ export default defineConfig({
     cssCodeSplit: true,
     sourcemap: false,
     rollupOptions: {
-      external: ["react", "react/jsx-runtime", "react-dom", "react-dom/client"],
+      external: ["react", "react/jsx-runtime", "react-dom", "react-dom/client", "styled-components"],
       output: {
         globals: {
           react: "React",
+          'styled-components': 'styled',
         },
       },
     },
