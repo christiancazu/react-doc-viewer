@@ -13,6 +13,7 @@ const MSDocRenderer: DocRenderer = ({ mainState: { currentDocument } }) => {
         src={`https://view.officeapps.live.com/op/embed.aspx?src=${encodeURIComponent(
           currentDocument.uri,
         )}`}
+        sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
         frameBorder="0"
       />
     </Container>

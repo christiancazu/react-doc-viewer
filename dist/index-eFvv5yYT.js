@@ -1547,6 +1547,7 @@ const uf = ({ mainState: { currentDocument: r } }) => r ? /* @__PURE__ */ O(DS, 
     src: `https://view.officeapps.live.com/op/embed.aspx?src=${encodeURIComponent(
       r.uri
     )}`,
+    sandbox: "allow-same-origin allow-scripts allow-popups allow-forms",
     frameBorder: "0"
   }
 ) }) : null, bs = {
@@ -6548,13 +6549,13 @@ if (Ae) {
       "./empty-GlqisfcO.js"
     ), e = await import(
       /*webpackIgnore: true*/
-      "./index-BRkdgnQ2.js"
+      "./index-BmQ_Q4Jh.js"
     ).then((l) => l.i), i = await import(
       /*webpackIgnore: true*/
-      "./index-DRkHV2iy.js"
+      "./index-DByDBLAa.js"
     ).then((l) => l.i), n = await import(
       /*webpackIgnore: true*/
-      "./url-BLPdrI2y.js"
+      "./url-D4texwpR.js"
     ).then((l) => l.u);
     let s, a;
     return new Map(Object.entries({
